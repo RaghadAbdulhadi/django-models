@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Snacks | {{snack.name}}{% endblock title%}
+
+{% block content %}
+<h1>Snacks Django</h1>
+<p>
+    <img src = "{% static 'images/snacks.jpg' %}" alt="snacks image">
+</p>
+
+{% endblock content %}
